@@ -36,7 +36,7 @@ var (
 	testName                       string
 	logger                         = &commock.Logger{}
 	mockIndexer                    = &indexermock.MockIndexedChainState{}
-	rpcURL                         = "http://localhost:8545"
+	rpcURL                         = "http://localhost:8547"
 	quorumIds                      = []uint32{0, 1}
 	operatorAddr                   = gethcommon.HexToAddress("0x0000000000000000000000000000000000000001")
 	churnerPrivateKeyHex           = "ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
